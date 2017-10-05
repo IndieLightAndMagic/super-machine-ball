@@ -8,4 +8,10 @@ project(super-machine-ball)
 set (CMAKE_CXX_FLAGS            "-std=c++11")
 
 
-add_executable(super-machine-ball src/main.cpp)
+#################################################
+# BUILD SETTINGS
+#################################################
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+
+add_subdirectory(src)
