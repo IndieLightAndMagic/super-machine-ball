@@ -1,0 +1,3 @@
+[submodule "modern-opengl"]
+	path = modern-opengl
+	url = https://github.com/IndieLightAndMagic/modern-opengl.git
